@@ -7,10 +7,10 @@ Distributed applications are a part of Web 3.0 and allow the development of full
 ## Why would I care?
 Writing distributed applications on the unblocked platform is super simple, they scale enormously, offer world class security and require almost no investment to run
 
-## How do I start
-Install the pre-requisites, open Microsoft Visual Studion and create a new Unblocked Application
+## How do I start?
+Install the pre-requisites, open Microsoft Visual Studio and create a new Unblocked Application
 
-## How do I deliver the applicatio to my users?
+## How do I deliver the application to my users?
 We support multiple ways to deliver an unblocked application. Click below for an example
 
 ## Where do I find out more?
