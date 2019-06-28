@@ -76,15 +76,16 @@ Each time the Click me button is selected:
 * The ```IncrementCount``` method is called.
 * The ```currentCount``` is incremented.
 * The component is rendered again.
+
+
 The runtime compares the new content to the previous content and only applies the changed content to the Document Object Model (DOM).
 
 Add a component to another component using HTML syntax. For example, add the Counter component to the app's homepage by adding a <Counter /> element to the Index component.
 
-Pages/Index.razor:
+*Pages/Index.razor*:
 
-CSHTML
+```Cs
 
-Copy
 @page "/"
 
 <h1>Hello, world!</h1>
@@ -92,17 +93,17 @@ Copy
 Welcome to your new app.
 
 <Counter />
+```
 Run the app. The homepage has its own counter provided by the Counter component.
 
 Component parameters are specified using attributes or child content, which allow you to set properties on the child component. To add a parameter to the Counter component, update the component's @code block:
 
 Add a property for IncrementAmount with a [Parameter] attribute.
 Change the IncrementCount method to use the IncrementAmount when increasing the value of currentCount.
-Pages/Counter.razor:
 
-CSHTML
 
-Copy
+*Pages/Counter.razor*:
+```cs
 @page "/counter"
 
 <h1>Counter</h1>
@@ -122,13 +123,13 @@ Copy
         currentCount += IncrementAmount;
     }
 }
-Specify the IncrementAmount in the Index component's <Counter> element using an attribute.
+```
 
-Pages/Index.razor:
+Specify the IncrementAmount in the Index component's ```<Counter>``` element using an attribute.
 
-CSHTML
+*Pages/Index.razor*:
 
-Copy
+```cs
 @page "/"
 
 <h1>Hello, world!</h1>
@@ -136,10 +137,12 @@ Copy
 Welcome to your new app.
 
 <Counter IncrementAmount="10" />
+```
+
 Run the app. The Index component has its own counter that increments by ten each time the Click me button is selected. The Counter component (Counter.razor) at /counter continues to increment by one.
 
 ## How do I deliver the application to my users?
-We support multiple ways to deliver an unblocked application. Click below for an example
+We support multiple ways to deliver an unblocked application. You can host the application in any of the major cloud providers or indeed in any fixed file based web services such as github pages. Read below to learn how to do this.
 
 ## Where do I find out more?
 Read our product documentation here.
