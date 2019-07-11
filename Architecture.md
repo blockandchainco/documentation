@@ -1,3 +1,4 @@
+![Logo](./img/UPWT.png)
 # Architecture
 The Unblocked platform was designed from the ground up to allow application developers to write applications with the following key attributes:
 
@@ -8,4 +9,7 @@ The Unblocked platform was designed from the ground up to allow application deve
 * **Are highly scalable** - Processing occurs on users devices and data is shared peer-to-peer meaning these applications are highly scalable.
 * **Are simple to write** - Unblocked platform applications are easy and quick to write
 * **Uses your current knowledge** - Developers with an understanding of HTML, CSS and C# can easily write unblocked applications.
-* 
+
+We've been developing this platform since the advent of the [Blazor](https://blazor.net) project to provide a way to solve some of our challenging technology issues. In January 2019, we decided to release our system as a platform that others can use to develop their own distributed applications.
+
+At the core of the platform is a **distributed ledger**, using a technology that we developed purely in .net. Our distributed ledger implements end to end cryptography, merkle trees for speed, epochs 
