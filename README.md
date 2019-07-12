@@ -11,6 +11,8 @@ Distributed applications are a part of Web 3.0 and allow the development of full
 Writing distributed applications on the unblocked platform is super simple, they scale enormously, offer world class security and require almost no investment to run.
 
 ## How do I start?
+The platform is currently in private beta. You can [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
+
 If you are a developer and want to get started writing a distributed application, you can follow our getting started guide at [Getting Started](./gettingstarted.md)
 
 If you want to have a play with a distributed application, you can login to our simple template application [here](https://blockandchainco.github.io/BasicSample/).
