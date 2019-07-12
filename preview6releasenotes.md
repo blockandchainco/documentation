@@ -31,7 +31,7 @@ The following items are open source:
 * **[Visual Studio Extension](https://github.com/blockandchainco/UP.VSExtension)** - The Visual Studio Extension to quickly build applications
 
 The following items are closed source
-* **[BC.UnblockedPlatform](https://www.nuget.org/packages/BC.Platform)** - The Platform NuGet containing all the components below:
+* **[BC.UnblockedPlatform](https://www.nuget.org/packages/BC.UnblockedPlatform)** - The Platform NuGet containing all the components below:
 * **[BC.DataAccess](./dataaccess.md)** - The public API for working with Data
 * **BC.FileReader** - The public API for working with files in Blazor Applications
 * **BC.IndexedDB** - API for working directly with IndexedDB in the browser.
