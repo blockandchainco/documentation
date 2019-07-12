@@ -1,3 +1,4 @@
+![Logo](./img/UPWT.png)
 # Getting Started
 Follow the simple process below to get started with the Unblocked platform
 
