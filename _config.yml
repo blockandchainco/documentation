@@ -3,3 +3,6 @@ title: Unblocked platform documentation
 author: The Block and Chain Company
 email: hello@blockandchain.io
 show_excerpts: true
+plugins:
+  - jekyll-seo-tag
+google_analytics: UA-143749214-1
