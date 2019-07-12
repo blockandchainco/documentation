@@ -30,7 +30,7 @@ As there is no need for servers in this platform implementation, we do not have 
 
 ## Microsoft Provided
 ### [Microsoft Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)
-Microsoft's Blazor framework is a new [Single Page Application Framework](https://en.wikipedia.org/wiki/Single-page_application), written in .Net which takes advantage of [WebAssembly](https://webassembly.org/). As our platform requires WebAssembly, the Blazor framework makes sens to use.
+Microsoft's Blazor framework is a new [Single Page Application Framework](https://en.wikipedia.org/wiki/Single-page_application), written in .Net which takes advantage of [WebAssembly](https://webassembly.org/). As our platform requires WebAssembly, the Blazor framework makes sense to use.
 
 ## 3rd Party
 ### IndexedDB
