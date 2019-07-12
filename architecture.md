@@ -2,27 +2,27 @@
 # Architecture
 The Unblocked platform was designed from the ground up to allow application developers to write applications with the following key attributes:
 
-* **Run Anywhere** - Applications developed with the unblocked platform run on any [modern web browser](https://html5readiness.com/).
-* **Include Full functionality data access** - Applications developed with the unblocked platform provide full featured data models and access
-* **Require no backend** - Unblocked platform applications only require a flat file web server such as [github pages](https://pages.github.com/). There is no requirement for central databases or servers.
-* **Are very secure** - Unblocked platform applications use a comprehensive [X509 Certificate](https://en.wikipedia.org/wiki/X.509) infrastructure and industry grade encryption and decryption.
+* **Run Anywhere** - Applications developed with unblocked run on any [modern web browser](https://html5readiness.com/).
+* **Include Full functionality data access** - Applications developed with the unblocked provide full featured data models and access
+* **Require no backend** - Unblocked applications only require a flat file web server such as [github pages](https://pages.github.com/). There is no requirement for central databases or servers.
+* **Are very secure** - Unblocked applications use a comprehensive [X509 Certificate](https://en.wikipedia.org/wiki/X.509) infrastructure and industry grade encryption and decryption.
 * **Are highly scalable** - Processing occurs on users devices and data is shared peer-to-peer meaning these applications are highly scalable.
-* **Are simple to write** - Unblocked platform applications are easy and quick to write
+* **Are simple to write** - Unblocked applications are easy and quick to write
 * **Uses your current knowledge** - Developers with an understanding of [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) and [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) can easily write unblocked applications.
 
 We've been developing this platform since the advent of the [Blazor](https://blazor.net) project to provide a way to solve some of our challenging technology issues. In January 2019, we decided to release our system as a platform that others can use to develop their own distributed applications.
 
-At the core of the platform is a **[distributed ledger](https://www.investopedia.com/terms/d/distributed-ledgers.asp)**, using a technology that we developed purely in .net. Our distributed ledger implements end to end [cryptography](https://en.wikipedia.org/wiki/Cryptography), [merkle trees](https://en.wikipedia.org/wiki/Merkle_tree) for speed, epochs for data storage and [X509 Certificates](https://en.wikipedia.org/wiki/X.509) for Private and Public key storage.
+At the core of unblocked is a **[distributed ledger](https://www.investopedia.com/terms/d/distributed-ledgers.asp)**, using a technology that we developed purely in .net. Our distributed ledger implements end to end [cryptography](https://en.wikipedia.org/wiki/Cryptography), [merkle trees](https://en.wikipedia.org/wiki/Merkle_tree) for speed, epochs for data storage and [X509 Certificates](https://en.wikipedia.org/wiki/X.509) for Private and Public key storage.
 
 ![Diagram](./img/ArchitectureDiagram.png)
 *Architecture Diagram*
 
-The diagram above shows a high level overview of the complete architecture of an application written on the unblocked platform. The various components are described below:
+The diagram above shows a high level overview of the complete architecture of an application written on the platform. The various components are described below:
 
 ## User Generated
 
 ### User Application
-Users (or developers) using the unblocked platform develop their applications in [Visual Studio](https://visualstudio.microsoft.com/). The development experience is similar to developing a [Razor](https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) application or more closely aligned a [Microsoft Blazor Client Side application](https://dotnet.microsoft.com/apps/aspnet/web-apps/client).
+Users (or developers) using the platform develop their applications in [Visual Studio](https://visualstudio.microsoft.com/). The development experience is similar to developing a [Razor](https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) application or more closely aligned a [Microsoft Blazor Client Side application](https://dotnet.microsoft.com/apps/aspnet/web-apps/client).
 
 As there is no need for servers in this platform implementation, we do not have a concept of a server hosted example.
 
