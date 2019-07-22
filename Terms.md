@@ -1,3 +1,4 @@
+![Logo](./img/UPWT.png)
 # Terms and Conditions
 ## Introduction
 These Standard Terms and Conditions written on this site shall manage your use of our site, Unblocked platform documentation accessible at https://github.com/blockandchainco/documentation.
