@@ -33,13 +33,13 @@ The following items are open source:
 The following items are closed source
 * **[BC.UnblockedPlatform](https://www.nuget.org/packages/BC.UnblockedPlatform)** - The Platform NuGet containing all the components below:
 * **[BC.DataAccess](./dataaccess.md)** - The public API for working with Data
-* **BC.FileReader** - The public API for working with files in Blazor Applications
-* **BC.IndexedDB** - API for working directly with IndexedDB in the browser.
-* **BC.Node** - The software that maintains the distributed ledger and communication between application versions.
-* **BC.PKI.Core** - Cryptography and Public Key Library designed for dotnet standard and dotnet code.
-* **BC.Shared** - Shared objects and language snippets
-* **BC.Shared.Services** - Shared Services for Dependency Injection
-* **BC.Storage** - Library to work with LocalStorage and SessionStorage in the browser.
+* **[BC.FileReader](./filereader.md)** - The public API for working with files in Blazor Applications
+* **[BC.IndexedDB](./indexeddb.md)** - API for working directly with IndexedDB in the browser.
+* **[BC.Node](./node.md)** - The software that maintains the distributed ledger and communication between application versions.
+* **[BC.PKI.Core](./pki.md)** - Cryptography and Public Key Library designed for dotnet standard and dotnet code.
+* **[BC.Shared](./shared.md)** - Shared objects and language snippets
+* **[BC.Shared.Services](./services.md)** - Shared Services for Dependency Injection
+* **[BC.Storage](./storage.md)** - Library to work with LocalStorage and SessionStorage in the browser.
 
 # Items in this release
 The following details the major development items that were completed in this release. 
@@ -50,3 +50,4 @@ The following details the major development items that were completed in this re
 * **Remove BouncyCastle** - All Cryptography is now using the System.Security.Cryptography namespaces from Microsoft.
 * **Update to Blazor Preview6** - The platform now works on Microsoft Blazor Preview6.
 * **Release Sample Application** - The platform now has a sample application.
+* **Upgrade Comms to new WebRTC Platform** - Communications now uses a new WebRTC Library

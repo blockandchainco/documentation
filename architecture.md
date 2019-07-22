@@ -28,12 +28,14 @@ As there is no need for servers in this platform implementation, we do not have 
 
   ***Note**: It may be possible in the future to leverage functionality in the dotnet core server functions but for version 1 of the platform, this is not considered.*
 
+To create a new application, developers can install our Visual Studio Extension directly from the Visual Studio Marketplace. Simply search for **Unblocked platform** in the visual studio  marketplace.
+
 ## Microsoft Provided
 ### [Microsoft Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)
 Microsoft's Blazor framework is a new [Single Page Application Framework](https://en.wikipedia.org/wiki/Single-page_application), written in .Net which takes advantage of [WebAssembly](https://webassembly.org/). As our platform requires WebAssembly, the Blazor framework makes sense to use.
 
 ## 3rd Party
-### IndexedDB
+### [IndexedDB](https://developers.google.com/web/ilt/pwa/working-with-indexeddb)
 IndexedDB is a No-SQL database included in every modern browser which supports html5. It provides a high performance local database.
 
 ### WebAssembly
@@ -43,7 +45,7 @@ WebAssembly is a new technology which allows the compilation of code into a new 
 WebRTC is a peer to peer communication system within the browser. Initially designed to support voice and video, WebRTC allows the transmission of data across and through complex networks.
 
 ## Unblocked Components
-### BC.DataAccess
+### [BC.DataAccess](./dataaccess.md)
 The BC.DataAccess Layer provides a public API to support data operations. Using the BC.DataAccess Layer, one can define and manage data models and send and receive data between users of teh application using a simple, accessible programming style.
 
 ### BC.IndexedDB
@@ -75,6 +77,6 @@ We have a couple of serverless functions which allow new nodes to find the regis
 
 |  |  |  | 
 | - | - | - |
-|![WASM](https://upload.wikimedia.org/wikipedia/commons/c/c6/Web_Assembly_Logo.svg) |  ![Blazor](https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png) | ![Html5](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png) | |
+|[![WASM](https://upload.wikimedia.org/wikipedia/commons/c/c6/Web_Assembly_Logo.svg)](https://webassembly.org) |  [![Blazor](https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png)](https://www.blazor.net) | ![Html5](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png) | |
 |  ![IndexedDB](https://d37djvu3ytnwxt.cloudfront.net/asset-v1:W3Cx+HTML5.2x+4T2015+type@asset+block/indexedDBlogo.jpg) | ![WebRTC](https://webrtc.org/assets/images/webrtc-logo-vert-retro-255x305.png) | ![UPLogo](img/UPLogo.png) |
 
