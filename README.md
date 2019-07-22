@@ -24,5 +24,5 @@ Unblocked platform application need no central infrastructure, saving you $$ ove
 It is super simple (and free) to write an unblocked application. You can follow our getting started guide at [Getting Started](./gettingstarted.md) to write your first application.
 
 ## Legals
-* [Terms and Conditions](./terms.md)
+* [Terms and Conditions](./Terms.md)
 
