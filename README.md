@@ -2,7 +2,7 @@
 
 *[release notes](./preview6releasenotes.md)*
 # unblocked platform
-The unblocked platform is a distributed computing platform which uses WebAssembly, dotnet core, Microsoft Blazor, WebRTC and IndexedDB to deliver a rapid app development solution for distributed applications. The platform is based on a well defined [architecture](./architecture.md).
+The unblocked platform is a distributed computing platform which uses WebAssembly, dotnet core, Microsoft Blazor, WebRTC and IndexedDB to deliver a rapid app development solution for distributed applications. The platform is based on a well defined [architecture](./architecture.md). The unblocked platform is patent pending.
 
 ## What are distributed applications?
 Distributed applications are a part of Web 3.0 and allow the development of fully featured multi-user applications without the need for central server infrastructure.
@@ -22,4 +22,7 @@ Unblocked platform application need no central infrastructure, saving you $$ ove
 
 ## Easy to Write
 It is super simple (and free) to write an unblocked application. You can follow our getting started guide at [Getting Started](./gettingstarted.md) to write your first application.
+
+## Legals
+* [Terms and Conditions](./terms.md)
 
