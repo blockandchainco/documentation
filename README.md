@@ -18,7 +18,7 @@ If you are a developer and want to get started writing a distributed application
 If you want to have a play with a distributed application, you can login to our simple template application [here](https://blockandchainco.github.io/BasicSample/).
 
 ## No Infrastructure
-Unblocked platform application need no central infrastructure, saving you $$ over the life of an application.
+Unblocked platform applications need no central infrastructure, with all data distributed between your users. That dramatically reduces the cost of running a large scale application whilst keeping lightening fast performance. 
 
 ## Easy to Write
 It is super simple (and free) to write an unblocked application. You can follow our getting started guide at [Getting Started](./gettingstarted.md) to write your first application.
