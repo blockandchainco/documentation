@@ -5,42 +5,30 @@ Follow the simple process below to get started with the Unblocked platform
 
 
 The following 5 steps will help you get started.
-1. Install the latest [.NET Core 3.0 Preview SDK](https://dotnet.microsoft.com/download/dotnet-core/3.0) Release.
+1. Install the latest [.NET Core 3.0 Preview SDK](https://aka.ms/netcore3download) Release.
 2. Install the Blazor templates by running the following command in a command shell:
     ```
-    dotnet new -i Microsoft.AspNetCore.Blazor.Templates::3.0.0-preview6.19307.2
+    dotnet new -i Microsoft.AspNetCore.Blazor.Templates::3.0.0-preview7.19365.7
     ```
 3. Follow the guidance for your choice of tooling
     1. For Visual Studio:
-        1. Install the latest Visual Studio preview with the **ASP.NET and web development** workload
-        2. Install the latest Blazor extension from the Visual Studio Marketplace
-        3. Install the latest unblocked platform extension from the Visual Studio Marketplace
-        4. Create a new project
-        5. Select Unblocked Community Edition Project
-        6. Provide a project name in the **Project name** field or accept the default project name. Confirm the Location entry is correct or provide a location for the project. Select **Create**.
-        7. Press **F5** to run the app.
-    2. For Visual Studio Code
-        1. Install Visual Studio Code.
-        2. Install the latest C# for Visual Studio Code extension.
-        3. Execute the following command from a command shell:
-            ```
-                dotnet new blazor -o WebApplication1
-            ```
-        4. Open the WebApplication1 folder in Visual Studio Code.
-        5. Execute dotnet run from the app's project folder.
-        6. In a browser, navigate to https://localhost:5001.
-    3. For .Net Core CLI
-        1. Execute the following commands from a command shell
-            ```
-            dotnet new blazor -o WebApplication1
-            cd WebApplication1
-            dotnet run
-            ```
+        1. Install the latest Visual Studio preview with the **ASP.NET and web development** workload. Note, the unblocked platform only works on requires Visual Studio 2019 16.3 Preview 1, which is now available!
+        2. Install the latest [unblocked platform extension](https://marketplace.visualstudio.com/items?itemName=BlockandChainCompany.unblocked-simple) from the Visual Studio Marketplace
+        3. Create a new project
+        4. Select Unblocked Community Edition Project
+        5. Provide a project name in the **Project name** field or accept the default project name. Confirm the Location entry is correct or provide a location for the project. Select **Create**.
+        6. Press **F5** to run the app.
+    2. For Visual Studio Code *NOTE: Visual Studio Code Support is not yet available*
+    3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable**
+    
 
 Multiple pages are available from tabs in the sidebar:
 * Home
 * Counter
 * Fetch Data
+* Address Management
+
+You can see the status of the unblocked node by clicking the node icon.
 
 On the Counter page, select the Click me button to increment the counter without a page refresh. Incrementing a counter in a webpage normally requires writing JavaScript, but Razor components provide a better approach using C#.
 
@@ -141,4 +129,4 @@ Run the app. The Index component has its own counter that increments by ten each
 We support multiple ways to deliver an unblocked application. You can host the application in any of the major cloud providers or indeed in any fixed file based web services such as github pages. Read below to learn how to do this.
 
 ## Where do I find out more?
-Read our product documentation here.
+Read our product documentation [here](https://blockandchainco.github.io/API/).
