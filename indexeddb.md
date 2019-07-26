@@ -3,7 +3,7 @@
 Included in every modern browser is a database called IndexedDB. IndexedDB is a noSQL or document database which is a standard maintained by the World Wide Web Consortium (W3C). IndexedDB is the standard browser database in use currently and is used by many applications and solutions.
 
 ## How the platform uses IndexedDB
-IndexedDB is used as the database for the unblocked platform. It is where both application configuration and your data is stored. Data you store in the IndexedDB database is automatically distributed among other users on the platform using the following process.
+IndexedDB is used as the database for the Unblocked Platform. It is where both application configuration and your data is stored. Data you store in the IndexedDB database is automatically distributed among other users on the platform using the following process.
 
 1. You define the data operation
 2. This operation is converted to C# code

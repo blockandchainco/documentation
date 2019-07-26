@@ -1,6 +1,6 @@
 ![Logo](./img/UPWT.png)
 # Architecture
-The unblocked platform was designed from the ground up to allow application developers to write applications with the following key attributes:
+The Unblocked Platform was designed from the ground up to allow application developers to write applications with the following key attributes:
 
 * **Run Anywhere** - Applications developed with unblocked run on any [modern web browser](https://html5readiness.com/).
 * **Include Full functionality data access** - Applications developed with the unblocked provide full featured data models and access

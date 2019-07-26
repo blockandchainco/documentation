@@ -1,14 +1,14 @@
 ![Logo](./img/UPWT.png)
 
 *[release notes](./preview6releasenotes.md)*
-# unblocked platform
-The unblocked platform is a distributed computing platform which uses WebAssembly, dotnet core, Microsoft Blazor, WebRTC and IndexedDB to deliver a rapid app development solution for distributed applications. The platform is based on a well defined [architecture](./architecture.md). The unblocked platform is patent pending. For detailed information on the API, please see here
+# Unblocked Platform
+The Unblocked Platform is a distributed computing platform which uses WebAssembly, dotnet core, Microsoft Blazor, WebRTC and IndexedDB to deliver a rapid app development solution for distributed applications. The platform is based on a well defined [architecture](./architecture.md). The Unblocked Platform is patent pending. For detailed information on the API, please see here
 
 ## What are distributed applications?
 Distributed applications are a part of Web 3.0 and allow the development of fully featured multi-user applications without the need for central server infrastructure.
 
 ## Why would I care?
-Writing distributed applications on the unblocked platform is super simple, they scale enormously, offer world class security and require almost no investment to run. Cloud computing costs are accelerating in most organizations and highly scalable applications can be incredibly expensive. This platform places application performance on the device and distributes data, meaning little to no central investment required.
+Writing distributed applications on the Unblocked Platform is super simple, they scale enormously, offer world class security and require almost no investment to run. Cloud computing costs are accelerating in most organizations and highly scalable applications can be incredibly expensive. This platform places application performance on the device and distributes data, meaning little to no central investment required.
 
 ## How do I start?
 The platform is currently in private beta. You can [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).

@@ -12,8 +12,8 @@ The following 5 steps will help you get started.
     ```
 3. Follow the guidance for your choice of tooling
     1. For Visual Studio:
-        1. Install the latest Visual Studio preview with the **ASP.NET and web development** workload. Note, the unblocked platform only works on requires Visual Studio 2019 16.3 Preview 1, which is now available!
-        2. Install the latest [unblocked platform extension](https://marketplace.visualstudio.com/items?itemName=BlockandChainCompany.unblocked-simple) from the Visual Studio Marketplace
+        1. Install the latest Visual Studio preview with the **ASP.NET and web development** workload. Note, the Unblocked Platform only works on requires Visual Studio 2019 16.3 Preview 1, which is now available!
+        2. Install the latest [Unblocked Platform extension](https://marketplace.visualstudio.com/items?itemName=BlockandChainCompany.unblocked-simple) from the Visual Studio Marketplace
         3. Create a new project
         4. Select Unblocked Community Edition Project
         5. Provide a project name in the **Project name** field or accept the default project name. Confirm the Location entry is correct or provide a location for the project. Select **Create**.

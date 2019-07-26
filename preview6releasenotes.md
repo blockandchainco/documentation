@@ -1,13 +1,13 @@
 ![Logo](./img/UPWT.png)
 # Release Notes
-## unblocked platform 1.0.0 preview6
+## Unblocked Platform 1.0.0 preview6
 
 Welcome to the release notes for Bock and Chain Version 1.0.0-preview6. Please note, although this is a code complete release, we have a dependency on the Microsoft Blazor Project which is still in preview, thus the -preview6 moniker following our version information.
 
 Whilst this is a **public** release, we are still in closed beta, and as such the following functions remain unavailable:
 
 * **Certificate Generation** - It is not currently possible to generate certificates for the platform automatically. If you would like a certificate, you will need to [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
-* **VSIX file** In order to create unblocked platform applications, you need the Visual Studio Template file. This is currently not available in the marketplace and to obtain a preview copy, you will need to [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
+* **VSIX file** In order to create Unblocked Platform applications, you need the Visual Studio Template file. This is currently not available in the marketplace and to obtain a preview copy, you will need to [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
 
 ## Go Live License
 This current release does not contain a go-live license. Therefore members of the private beta program may develop and use applications developed in pre-production environments only.

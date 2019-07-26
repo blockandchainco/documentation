@@ -1,16 +1,16 @@
 ![Logo](./img/UPWT.png)
 # Release Notes
-## unblocked platform 1.0.0 preview7
+## Unblocked Platform 1.0.0 preview7
 
-Welcome to the release notes for the unblocked platform Version 1.0.0-preview6. Please note, although this is a code complete release, we have a dependency on the Microsoft Blazor Project which is still in preview, thus the -preview7 moniker following our version information. Nevertheless, dotnet core 3.0.0 preview7 now is supported by Microsoft and has a Go-Live License for production applications.
+Welcome to the release notes for the Unblocked Platform Version 1.0.0-preview6. Please note, although this is a code complete release, we have a dependency on the Microsoft Blazor Project which is still in preview, thus the -preview7 moniker following our version information. Nevertheless, dotnet core 3.0.0 preview7 now is supported by Microsoft and has a Go-Live License for production applications.
 
 Whilst this is a **public** release, we are still in closed beta, and as such the following functions remain unavailable:
 
 * **Certificate Generation** - It is not currently possible to generate certificates for the platform automatically. If you would like a certificate, you will need to [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
-* **VSIX file** In order to create unblocked platform applications, you need the Visual Studio Template file. This is currently not available in the marketplace and to obtain a preview copy, you will need to [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
+* **VSIX file** In order to create Unblocked Platform applications, you need the Visual Studio Template file. This is currently not available in the marketplace and to obtain a preview copy, you will need to [apply to the private beta program](https://mailchi.mp/747009030b07/unblockedplatformpreview).
 
 ## Go Live License
-This current release does contain a go-live license. Developers who use this version of the unblocked platform may use their applications in production environments.
+This current release does contain a go-live license. Developers who use this version of the Unblocked Platform may use their applications in production environments.
 
 ## Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
