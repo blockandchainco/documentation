@@ -17,18 +17,20 @@ The following 5 steps will help you get started.
         3. Create a new project
         4. Select Unblocked Community Edition Project
         5. Provide a project name in the **Project name** field or accept the default project name. Confirm the Location entry is correct or provide a location for the project. Select **Create**.
-        6. Press **F5** to run the app.
+        6. Obtain a new Application Certificate by completing the [online form here](https://bcpayments.azurewebsites.net/application)
+        7. Press **F5** to run the app.
     2. For Visual Studio Code *NOTE: Visual Studio Code Support is not yet available*
-    3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable**
+    3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable*
     
 
 Multiple pages are available from tabs in the sidebar:
-* Home
-* Counter
-* Fetch Data
-* Address Management
+* **Home** - This is the default page from the Blazor Template, with the addition of the User Interface for the Unblocked platform node.
+* **Counter** - This is a default page from the Blazor Template showing a counter.
+* **Fetch Data** - This page shows the ability of the unblocked platform to persist and send data peer to peer.
+* **Address Management** - This page shows how to manage the X509 Certificates that secure the unblocked platform.
 
-You can see the status of the unblocked node by clicking the node icon.
+You can see the status of the unblocked node at the bottom of each page.
+
 
 On the Counter page, select the Click me button to increment the counter without a page refresh. Incrementing a counter in a webpage normally requires writing JavaScript, but Razor components provide a better approach using C#.
 
