@@ -32,7 +32,7 @@ The following 5 steps will help you get started.
         10. Type the passphrase you entered in Step 8.1 and click **Upload**
         11. The Application is now operational and running on your own distributed ledger.
     2. For Visual Studio Code *NOTE: Visual Studio Code Support is not yet available*
-    3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable*
+    3. For .Net Core CLI *NOTE: CLI Support is not yet available*
     
 *Once you have the application running, you can then run another instance in an incognito browser session, this will show the two nodes talking to each other. Upload the same certificate to both instances and they will also share data. Create a new certificate and they will have unique and different data sets.*
 
