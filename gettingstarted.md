@@ -34,6 +34,7 @@ The following 5 steps will help you get started.
     2. For Visual Studio Code *NOTE: Visual Studio Code Support is not yet available*
     3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable*
     
+*Once you have the application running, you can then run another instance in an incognito browser session, this will show the two nodes talking to each other. Upload the same certificate to both instances and they will also share data. Create a new certificate and they will have unique and different data sets.*
 
 Multiple pages are available from tabs in the sidebar:
 * **Home** - This is the default page from the Blazor Template, with the addition of the User Interface for the Unblocked platform node.
