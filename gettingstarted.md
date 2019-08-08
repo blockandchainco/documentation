@@ -44,6 +44,71 @@ Multiple pages are available from tabs in the sidebar:
 
 You can see the status of the unblocked node at the bottom of each page.
 
+The Fetch Data page shows how to send data between nodes. It consists of a simple control to manage a table of data, and controls to edit, remove and create entries.
+
+The Fetch Data Page is configured to send data to the currently recorded certificate, so you need to share your Private Key with others to share data.
+
+In real world applications, there are multiple keys, some unique and some shared allowing for secure and shared data transfer.
+
+Fetch Data uses a Data Context (similar to Entity Framework) which is defined in ```Models\\WeatherForecastDataContext.cs```. THe Data Context looks as follows:
+
+```csharp
+public class WeatherForecastDataContext : DbContext
+    {
+        /// <summary>
+        /// The List of Entries from the Database
+        /// </summary>
+        public DbSet<WeatherForecast> WeatherForecasts { get; set; }
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="indexedDBService">The IndexedDB Service</param>
+        /// <param name="compileService">The Compile Service</param>
+        /// <param name="addressService">The Address Service</param>
+        /// <param name="nodeService">The Node Service</param>
+        public WeatherForecastDataContext(IIndexedDBService indexedDBService, CompileService compileService, IAddressService addressService, INodeService nodeService) : base(indexedDBService, compileService, addressService, nodeService)
+        {
+            DatabaseName = "WeatherForecast";
+        }
+    }
+```
+
+The Actual Data Model is stored in ```Models\WeatherForecast``` and looks as follows:
+
+```csharp
+public class WeatherForecast : EntityBase
+    {
+        [Index]
+        [Display(Name = "Date")]
+        [Required(ErrorMessage = "The date is required")]
+        [Editable(false)]
+        public DateTime Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public int TemperatureF => TemperatureC * 2 + 30;
+
+        public string Summary { get; set; }
+
+        public bool IsEditMode { get; set; } = false;
+
+        public bool IsSelected { get; set; } = false;
+    }
+```
+
+The ```FetchData.Razor``` component shows how to perform all CRUD (Create, Retrieve, Update and Delete) operations using the Data Context and how to respond to events where the data changes.
+Working with Data is as follows
+
+| Operation | Function |
+| -- | --|
+| Create    | ```DataContext.AddAsync``` |
+| Retrieve  | ```DataContext.ToListAsync``` |
+| Update    | ```DataContext.UpdateAsync``` |
+| Delete    | ```DataContext.DeleteAsync``` |
+
+**Note** All DataContext Operations require an Address field which is a string containing the User, Application and Platform Ids as configured in an address.
+
 
 On the Counter page, select the Click me button to increment the counter without a page refresh. Incrementing a counter in a webpage normally requires writing JavaScript, but Razor components provide a better approach using C#.
 
