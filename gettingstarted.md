@@ -12,23 +12,37 @@ The following 5 steps will help you get started.
     ```
 3. Follow the guidance for your choice of tooling
     1. For Visual Studio:
-        1. Install the latest Visual Studio preview with the **ASP.NET and web development** workload. Note, the Unblocked Platform only works on requires Visual Studio 2019 16.3 Preview 1, which is now available!
+        1. Install the latest [Visual Studio preview](https://visualstudio.microsoft.com/vs/preview/) with the **ASP.NET and web development** and **.NET Core cross-platform development** workload. Note, the Unblocked Platform only works on Visual Studio 2019 16.3 Preview 1, which is now available.
         2. Install the latest [Unblocked Platform extension](https://marketplace.visualstudio.com/items?itemName=BlockandChainCompany.unblocked-v1) from the Visual Studio Marketplace
-        3. Create a new project
-        4. Select Unblocked Community Edition Project
+        3. In Visual Studio 2019 Preview, Create a new project
+        4. Select **unblocked-platform**, the Unblocked Platform Starter Project.
         5. Provide a project name in the **Project name** field or accept the default project name. Confirm the Location entry is correct or provide a location for the project. Select **Create**.
-        6. Press **F5** to run the app.
+        6. Obtain a new Application Certificate by completing the [online form here](https://bcpayments.azurewebsites.net/application).
+           1. Click Order Certificate
+           2. Download and save the PFX file
+           3. The Certificate Name is in the format "CN=\<ApplicationID\>, CN=\<PlatformID\>, NC=unblocked, CN=io. Make a note of the Application ID.
+           4. In the Application's Environment Folder, Open config.dev.json and amend the AppID field to eb the new Application ID from step 6.3 above.
+           5. Now edit the config.prod.json folder to include the new application id.
+        7. Press **F5** to run the app.
+        8. Navigate to the **Address Management** page, and click here under "If you need a certificate for this application" at the top of the page.
+           1. Complete the form and choose **order certificate**
+           2. Click **Download PFX** and save the file to your hard drive
+           3. Close the BC.Payment Portal Tab
+        9. CLick **Browse** and upload the new certificate
+        10. Type the passphrase you entered in Step 8.1 and click **Upload**
+        11. The Application is now operational and running on your own distributed ledger.
     2. For Visual Studio Code *NOTE: Visual Studio Code Support is not yet available*
-    3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable**
+    3. For .Net Core CLI *NOTE: CLI Support is not yet aviailable*
     
 
 Multiple pages are available from tabs in the sidebar:
-* Home
-* Counter
-* Fetch Data
-* Address Management
+* **Home** - This is the default page from the Blazor Template, with the addition of the User Interface for the Unblocked platform node.
+* **Counter** - This is a default page from the Blazor Template showing a counter.
+* **Fetch Data** - This page shows the ability of the unblocked platform to persist and send data peer to peer.
+* **Address Management** - This page shows how to manage the X509 Certificates that secure the unblocked platform.
 
-You can see the status of the unblocked node by clicking the node icon.
+You can see the status of the unblocked node at the bottom of each page.
+
 
 On the Counter page, select the Click me button to increment the counter without a page refresh. Incrementing a counter in a webpage normally requires writing JavaScript, but Razor components provide a better approach using C#.
 
