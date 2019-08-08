@@ -21,7 +21,7 @@ The following 5 steps will help you get started.
            1. Click Order Certificate
            2. Download and save the PFX file
            3. The Certificate Name is in the format "CN=\<ApplicationID\>, CN=\<PlatformID\>, NC=unblocked, CN=io. Make a note of the Application ID.
-           4. In the Application's Environment Folder, Open config.dev.json and amend the AppID field to eb the new Application ID from step 6.3 above.
+           4. In the Application's Environment Folder, Open config.dev.json and amend the AppID field to be the new Application ID from step 6.3 above.
            5. Now edit the config.prod.json folder to include the new application id.
         7. Press **F5** to run the app.
         8. Navigate to the **Address Management** page, and click here under "If you need a certificate for this application" at the top of the page.
